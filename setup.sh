@@ -1,3 +1,6 @@
+mv ~/keep-mon/prometheus/ ~/
+mv ~/keep-mon/loki/ ~/
+
 cd /etc/docker
 cat <<EOF >>daemon.json
 {
